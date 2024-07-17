@@ -1,10 +1,10 @@
 # for excel_country_financial_filter
 # to find the raws, which are in sheet 1 and column 1 same as 'Government'. also, the units sold more than 1000 times
-# raw output is including, country, units sold, sales, profits, and date
-# count Germany appear how many times, if raw[0] is 'Government'
+# raw output includes country, units sold, sales, profits, and date
+# count how many times Germany appears, if raw[0] is 'Government'
 
 # for excel_professor_rate_filter
-# to find who has the highest rate in the professor list
+# to find the highest quality among all professors
 
 import os
 from openpyxl import load_workbook
